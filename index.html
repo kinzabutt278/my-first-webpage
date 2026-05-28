@@ -1,58 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Profile Page</title>
-    <style>
-        body{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f0f0f0;
-        }
-
-        h1 {
-            color: #2c3e50;
-            text-align: center;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 20px auto;
-            border-radius: 8px;
-        }
-         a {
-            color: #3498db;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-         p {
-            line-height: 1.6;
-            color: #333;
-        }
-
-    </style>-->
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Enhanced Website</title>
+        <link rel="stylesheet" href="enhanced_webpage_stylesheet.css">
+    </head>
     <body>
-        <h1>Welcome to My Profile</h1>
-             <!--Addig an image-->
-        <img src="Images/profie photo.jpg" alt="Profile photo">
-        <h2>About Me</h2>
-        <p>
-            Hello! I'm Kinza Sulaiman and learning Web Development. 
-            This is my first Web Page with the help of HTML and CSS. 
-            Soon I will make my full dynamic website.
-        </p>
-        <h2>My favourite Websites</h2>
-        <ul>
-            <li><a href="http://www.Instagram.com" target="_blank">Instagram</a></li>
-            <li><a href="http://www.GitHub.com" target="_blank">GitHub</a></li>
-        </ul>
+    <!--navigation section-->
+        <div class="nav-container">
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    <!--header section-->
+        <div class="header">
+            <h1>Welcome to My Website</h1>
+            <p class="heading-parahgraph">Learning <em><abbr>HTML</abbr></em> and <em><abbr>CSS</abbr></em></p>
+        </div>
+
+    <!--main content-->
+        <div class="main-content">
+            <div class="about-section">
+                <h2>About Us</h2>
+                <img src="images/profie photo.jpg" alt="My Profile photo">
+                <p class="about-section-parahgraph">
+                        Welcome to our website! Here you'll find 
+                        amazing content about web development. This is my first webpage where I'm 
+                        practicing HTML and CSS. 
+                    <p>We believe in creating <em>beautiful</em> and <em>functional</em> 
+                        websites that make a difference
+                    </p>
+                </p>
+            </div>
+
+            <div class="service-section">
+                <h2>Our Services</h2>
+                <p class="about-service-parahgraph">
+                        We specialize in:
+                </p>
+                <ul>
+                    <li><span class="highlight">Web Design</span></li>
+                    <li><em>Content Creation</em></li>
+                    <li><strong>Marketing</strong></li>
+                </ul>
+                <p>Check out our <a href="#">portfolio</a> to see more of our work!</p>
+            </div>
+
+            <div class="contact-section">
+                <h2>Contact Us</h2>
+                <p>Get in touch: <span class="email">email@example.com</span></p>
+                <p>Follow us on social media:</p>
+                <ul>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!--footer-->
+        <div class="Footer">
+            <p>&copy; 2024 My Website. All rights reserved.</p>
+        </div>
     </body>
+
 </html>
