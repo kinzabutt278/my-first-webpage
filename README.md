@@ -1,1 +1,1 @@
-# my-first-webpage
+# HTML and Web Essentials (HAW02)
